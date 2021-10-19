@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <style>
@@ -17,7 +18,7 @@
 </head>
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid text-white bg-secondary">
     
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,17 +27,23 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+            <a class="nav-link active" aria-current="page" href="#intro"><i class="bi bi-stars"></i>Spa Treatments</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">Features</a>
+            <a class="nav-link" href="#activity">Activities</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#service">Pricing</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Review</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
+              Spa
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -48,25 +55,34 @@
       </div>
     </div>
   </nav>
-    
+<!--   
+  <div class="hero-container">
+    <div class="hero">
+      <img class="img-fluid" src="villa-cortez.jpg" alt="" width="100%">
+    </div>
+    <div class="hero-stuff">
+        <h1>I love coffee</h1>
+        <a class="btn">Buy Me Some</a>
+    </div>
+  </div> -->
 
     <!-- main image & intro text -->
+   
+      <div class="display-5 text-center text-muted fst-italic">Believe Spa</div>
+      <p class="display-5 text-muted text-center fst-italic fw-light">A sanctuary of the sense</p>
+    
+
     <section id="intro">
         <div class="container-lg">
             <div class="row justify-content-center align-items-center">
-            <h1 class="text-center fst-italic">Relax and recharge</h1>
-
-               <p class="lead text-center text-muted fst-italic">Immerse yourself in our extraordinary Spa Island, surrounded by private waterways. Choose from our personalised spa journeys, under the expert care of our hand-picked ESPA therapists.</p>
-            
-                <div class="col-md-5 text-center text-md-start">
+                <div class="col-md-5 text-center text-md-start m-3 p-3 shadow">
                     <h1>
-                        <div class="display-2">Couples Massage</div>
-                        <div class="display-5 text-muted">Your coding skills</div>
+                        <div class="display-5 text-muted">Signature Digital Detox Package</div>
                     </h1>
-                    <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam adipisci odio nostrum, sequi, dolorem non facere vel inventore ipsa modi quaerat ab nesciunt quo iure provident temporibus reprehenderit eos!</p>
+                    <p class="lead my-4 text-muted">The signature digital detox package allows you to reconnect with yourself, being mindful of your space and your energy. Your treatment begins with a 60-minute sleep therapy, drifting off to a restful sleep on our flotation bed with the aid of preprogrammed chromotherapy lighting. A body treatment to enhance your relaxed state of mind and body.</p>
                     <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
                 </div>
-                <div class="col-md-5 text-center d-none d-md-block">
+                <div class="col-md-5 text-center d-none d-md-block m-3 p-3 shadow">
                     <img class="img-fluid" src="couple.jpg" alt="">
                 </div>
             </div>
@@ -74,49 +90,54 @@
     </section>
 
     <!-- main image & intro text -->
-    <img class="img-fluid" src="bed.jpg" alt="" width="100%">
+    
 
-    <section id="about">
+    <section id="service">
         <div class="container-lg">
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-5 text-center text-md-start">
+              <div class="col-md-5 text-center d-none d-md-block m-3 p-3 shadow">
+                <img class="img-fluid" src="spa-day.jpg" alt="">
+            </div>
+                <div class="col-md-5 text-center text-md-start m-3 p-3 shadow">
                     <h1>
-                        <div class="display-2">Facial</div>
-                        <div class="display-5 text-muted">Your coding skills</div>
+                        <div class="display-2">Black-Belt</div>
+                        <div class="display-5 text-muted">Journey To Complete Restoration Package</div>
                     </h1>
-                    <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam adipisci odio nostrum, sequi, dolorem non facere vel inventore ipsa modi quaerat ab nesciunt quo iure provident temporibus reprehenderit eos!</p>
+                    <p class="lead my-4 text-muted">Want to look and feel your best you? This rejuvenating package will have you groomed and glowing from tip to toe. Put your best face forward with a Classic Facial, followed by a stress-dissolving 60 minute Swedish Massage. It all ties up with a Saxon Luxury Manicure and Luxury Pedicure. Your restorative spa journey ends with a delicious lunch.</p>
                     <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
                 </div>
-                <div class="col-md-5 text-center d-none d-md-block">
-                    <img class="img-fluid" src="spa-day.jpg" alt="">
-                </div>
+              
             </div>
         </div>
     </section>
 
     <!-- main image & intro text -->
-    <img class="img-fluid" src="villa-cortez.jpg" alt="" width="100%">
+    
 
     <section id="service">
         <div class="container-lg">
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-5 text-center text-md-start">
+                <div class="col-md-5 text-center text-md-start m-3 p-3 shadow">
                     <h1>
                         <div class="display-2">Black-Belt</div>
-                        <div class="display-5 text-muted">Your coding skills</div>
+                        <div class="display-5 text-muted">Saxon Luxury Manicure</div>
                     </h1>
-                    <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam adipisci odio nostrum, sequi, dolorem non facere vel inventore ipsa modi quaerat ab nesciunt quo iure provident temporibus reprehenderit eos!</p>
+                    <p class="lead my-4 text-muted">This luxurious hand treatment is perfect for dehydrated hands. Relax and renew your hands with a manicure that incorporates the revitalising scent of the Saxon Signature fragrance to help you unwind. A milk bath soak and a Himalayan salt scrub will leave your hands looking renewed.</p>
                     <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
                 </div>
-                <div class="col-md-5 text-center d-none d-md-block">
-                    <img class="img-fluid" src="foot.jpg" alt="">
+                <div class="col-md-5 text-center d-none d-md-block m-3 p-3 shadow">
+                    <img class="img-fluid" src="m&p.jpg" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-    
-    <div class="container">
+    <!-- Activity section -->
+    <div class="text-center text-secondary">
+      <h2>Activities</h2>
+    </div>
+    <section id="activity">
+      <div class="container-lg">
         <div class="row">
           <div class="col">
             <img class="img-fluid" src="activity.jpg" alt="">
@@ -127,11 +148,282 @@
          <img class="img-fluid" src="pool.jpg" alt="">
          <p class="lead text-center text-muted">Adventures & activities</p>
          <p class="lead text-center text-muted">From paddle-boarding to whale-watching tours, let us create a bespoke itinerary of Cape Town’s most memorable experiences.</p>
+       </div>
+        </div>
+      </div>
+    </section>
 
+ <!-- pricing plans -->
+ <section id="pricing" class="bg-light mt-5">
+  <div class="container-lg">
+      <div class="text-center">
+        <h2>Pricing Packagess</h2>
+        <p class="lead text-muted">Choose a pricing plan to suit you.</p>
+      </div>
 
+      <div class="row my-5 g-0 align-items-center justify-content-center">
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Starter Edition</h4>
+              <p class="lead card-subtitle">eBook download only</p>
+              <p class="display-5 my-4 text-primary fw-bold">R199.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vitae magni! Repellat commodi a fuga corporis saepe dolorum.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-9 col-lg-4">
+          <div class="card border-primary border-2">
+            <div class="card-header text-center text-primary">Most Popular</div>
+            <div class="card-body text-center py-5">
+              <h4 class="card-title">Complete Edition</h4>
+              <p class="lead card-subtitle">eBook download & all updates</p>
+              <p class="display-4 my-4 text-primary fw-bold">R299.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vitae magni! Repellat commodi a fuga corporis saepe dolorum.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Ultimate Edition</h4>
+              <p class="lead card-subtitle">download, updates & extras</p>
+              <p class="display-5 my-4 text-primary fw-bold">R399.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vitae magni! Repellat commodi a fuga corporis saepe dolorum.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                Buy Now
+              </a>
+            </div>
           </div>
         </div>
       </div>
+
+    </div><!-- end container -->
+</section>
+
+<!-- topics at a glance -->
+<section id="about">
+  <div class="container-md">
+    <div class="text-center">
+      <h2>Inside the Book...</h2>
+      <p class="lead text-muted">A quick glance at the topics you'll learn</p>
+    </div>
+    <div class="row my-5 g-5 justify-content-around align-items-center">
+      <div class="col-6 col-lg-4">
+        <img src="/assets/kindle.png" class="img-fluid" alt="ebook">
+      </div>
+      <div class="col-lg-6">
+        
+        <!-- accordion -->
+        <div class="accordion" id="chapters">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                Chapter 1 - Your First Web Page
+              </button>
+            </h2>
+            <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
+              <div class="accordion-body">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+                Chapter 2 - Mastering CSS
+              </button>
+            </h2>
+            <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+              <div class="accordion-body">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
+                Chapter 3 - The Power of JavaScript
+              </button>
+            </h2>
+            <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
+              <div class="accordion-body">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
+                Chapter 4 - Storing Data (Firebase Databases)
+              </button>
+            </h2>
+            <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#chapters">
+              <div class="accordion-body">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
+                Chapter 5 - User Authentication
+              </button>
+            </h2>
+            <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#chapters">
+              <div class="accordion-body">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- review list -->
+<section id="reviews" class="bg-light">
+  <div class="container-lg">
+    <div class="text-center">
+      <h2><i class="bi bi-stars"></i> Book Reviews</h2>
+      <p class="lead">What my students have said about the book...</p>
+    </div>
+
+    <div class="row justify-content-center my-5">
+      <div class="col-lg-8">
+        <div class="list-group">
+          <div class="list-group-item py-3">
+              <div class="pb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+              </div>
+            <h5 class="mb-1">A must-buy for every aspiring web dev</h5>
+            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
+            <small>Review by Mario</small>
+          </div>
+          <div class="list-group-item py-3">
+              <div class="pb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+              </div>
+            <h5 class="mb-1">A must-buy for every aspiring web dev</h5>
+            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
+            <small>Review by Mario</small>
+          </div>
+          <div class="list-group-item py-3">
+              <div class="pb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+              </div>
+            <h5 class="mb-1">A must-buy for every aspiring web dev</h5>
+            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
+            <small>Review by Mario</small>
+          </div>
+          <div class="list-group-item py-3">
+              <div class="pb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+              </div>
+            <h5 class="mb-1">A must-buy for every aspiring web dev</h5>
+            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
+            <small>Review by Mario</small>
+          </div>
+          <div class="list-group-item py-3">
+              <div class="pb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+              </div>
+            <h5 class="mb-1">A must-buy for every aspiring web dev</h5>
+            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
+            <small>Review by Mario</small>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact form -->
+<section id="contact">
+  <div class="container-lg">
+    
+    <div class="text-center">
+      <h2>Get in Touch</h2>
+      <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
+    </div>
+    <div class="row justify-content-center my-5">
+      <div class="col-lg-6">
+        
+        <form>
+          <label for="email" class="form-label">Email address:</label>
+          <div class="input-group mb-4">
+            <span class="input-group-text">
+              <i class="bi bi-envelope-fill text-secondary"></i>
+            </span>
+            <input type="text" id="email" class="form-control" placeholder="e.g. alex@example.com" />
+          </div>
+          <label for="name" class="form-label">Name:</label>
+          <div class="mb-4 input-group">
+            <span class="input-group-text">
+              <i class="bi bi-person-fill text-secondary"></i>
+            </span>
+            <input type="text" id="name" class="form-control" placeholder="e.g. Alex" />
+          </div>
+          <label for="subject" class="form-label">What is your question about?</label>
+          <div class="mb-4 input-group">
+            <span class="input-group-text">
+              <i class="bi bi-chat-right-dots-fill text-secondary"></i>
+            </span>
+            <select class="form-select" id="subject">
+              <option value="pricing" selected>Pricing query</option>
+              <option value="content">Content query</option>
+              <option value="other">Other query</option>
+            </select>
+          </div>
+          <div class="mb-4 mt-5 form-floating">
+            <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+            <label for="query">Your query...</label>
+          </div>
+          <div class="mb-4 text-center">
+            <button type="submit" class="btn btn-secondary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Foot section -->
       <div class="footer-basic">
         <footer>
             <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
