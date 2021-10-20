@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
+   <script src="main.js"></script>
+
 
     <style>
         section {
@@ -16,6 +18,7 @@
         }
     </style>
 </head>
+
 <body>
  
   <!-- navbar -->
@@ -58,30 +61,18 @@
   </nav>
 
   
-<!--   
-  <div class="hero-container">
-    <div class="hero">
-      <img class="img-fluid" src="villa-cortez.jpg" alt="" width="100%">
-    </div>
-    <div class="hero-stuff">
-        <h1>I love coffee</h1>
-        <a class="btn">Buy Me Some</a>
-    </div>
-  </div> -->
+ <!--header section-->
 
-    <!-- main image & intro text -->
-
+      <!-- <div class="display-5 text-center text-muted fst-italic">Believe Spa</div>
+      <p class="display-5 text-muted text-center fst-italic fw-light">A sanctuary of the sense</p> -->
     
-   
-      <div class="display-5 text-center text-muted fst-italic">Believe Spa</div>
-      <p class="display-5 text-muted text-center fst-italic fw-light">A sanctuary of the sense</p>
-    
-
+<!-- start of sections -->
     <section id="intro">
         <div class="container-lg">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-5 text-center text-md-start m-3 p-3 shadow">
                     <h1>
+                          <!-- <div class="display-2">Black-Belt</div> -->
                         <div class="display-5 text-muted">Heaven on Earth Couples Package</div>
                     </h1>
                     <p class="lead my-4 text-muted">This package takes place in our romantic Heaven on Earth couple’s suite. First, your best faces will be revealed with a revitalising Classic Facial. You will then be indulged in a relaxing 60 minute Swedish Massage followed by a Foot Massage. Thereafter, as part of the Heaven on Earth Journey, you have an hour to unwind and enjoy a luxury spa bathing ritual for two. </p>
@@ -105,7 +96,7 @@
             </div>
                 <div class="col-md-5 text-center text-md-start m-3 p-3 shadow">
                     <h1>
-                        <div class="display-2">Black-Belt</div>
+                        <!-- <div class="display-2">Black-Belt</div> -->
                         <div class="display-5 text-muted">Journey To Complete Restoration Package</div>
                     </h1>
                     <p class="lead my-4 text-muted">Want to look and feel your best you? This rejuvenating package will have you groomed and glowing from tip to toe. Put your best face forward with a Classic Facial, followed by a stress-dissolving 60 minute Swedish Massage. It all ties up with a Saxon Luxury Manicure and Luxury Pedicure. Your restorative spa journey ends with a delicious lunch.</p>
@@ -124,7 +115,7 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-5 text-center text-md-start m-3 p-3 shadow">
                     <h1>
-                        <div class="display-2">Black-Belt</div>
+                        <!-- <div class="display-2">Black-Belt</div> -->
                         <div class="display-5 text-muted">Saxon Luxury Manicure</div>
                     </h1>
                     <p class="lead my-4 text-muted">This luxurious hand treatment is perfect for dehydrated hands. Relax and renew your hands with a manicure that incorporates the revitalising scent of the Saxon Signature fragrance to help you unwind. A milk bath soak and a Himalayan salt scrub will leave your hands looking renewed.</p>
@@ -157,6 +148,35 @@
         </div>
       </div>
     </section>
+
+    <!-- Carousel section -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="good.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="spa-at-home.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="bed.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
  <!-- pricing plans -->
  <section id="pricing" class="bg-light mt-5">
@@ -378,30 +398,33 @@
 
 <!-- contact form -->
 <section id="contact">
-  <div class="container-lg">
+  <div class="container-lg ">
     
-    <div class="text-center">
+    <div class="text-left">
       <h2>Get in Touch</h2>
       <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
     </div>
-    <div class="row justify-content-center my-5">
+    <div class="row justify-content-right my-5">
       <div class="col-lg-6">
         
         <form>
-          <label for="email" class="form-label">Email address:</label>
-          <div class="input-group mb-4">
-            <span class="input-group-text">
-              <i class="bi bi-envelope-fill text-secondary"></i>
-            </span>
-            <input type="text" id="email" class="form-control" placeholder="e.g. alex@example.com" />
-          </div>
           <label for="name" class="form-label">Name:</label>
           <div class="mb-4 input-group">
             <span class="input-group-text">
               <i class="bi bi-person-fill text-secondary"></i>
             </span>
-            <input type="text" id="name" class="form-control" placeholder="e.g. Alex" />
+            <input type="text" id="name" class="form-control" placeholder="e.g. Leigh-Anne" />
           </div>
+        
+          <label for="email" class="form-label">Email address:</label>
+          <div class="input-group mb-4">
+            <span class="input-group-text">
+              <i class="bi bi-envelope-fill text-secondary"></i>
+            </span>
+            <input type="text" id="email" class="form-control" placeholder="e.g. leighsylvester9@gmail.com" />
+          </div>
+         
+         
           <label for="subject" class="form-label">What is your question about?</label>
           <div class="mb-4 input-group">
             <span class="input-group-text">
@@ -409,20 +432,24 @@
             </span>
             <select class="form-select" id="subject">
               <option value="pricing" selected>Pricing query</option>
-              <option value="content">Content query</option>
+              <option value="content">Booking</option>
               <option value="other">Other query</option>
             </select>
           </div>
           <div class="mb-4 mt-5 form-floating">
             <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
-            <label for="query">Your query...</label>
+            <label for="query">Your Message</label>
           </div>
           <div class="mb-4 text-center">
             <button type="submit" class="btn btn-secondary">Submit</button>
           </div>
         </form>
-      </div>
+      </div> 
     </div>
+    <div class="row justify-content-left my-5">
+      <div class="col-lg-6">
+        <img src="back.jpeg" class="img-thumbnail" alt="...">
+        </div>
   </div>
 </section>
 
