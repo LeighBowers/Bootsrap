@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
    <script src="main.js"></script>
+  
 
 
     <style>
@@ -22,6 +23,46 @@
 <body>
  
   <!-- navbar -->
+  <!-- head section with carousal -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="AMANI-SPA-RADISSON-BLU.jpg.webp" alt="First slide">
+        <div class="carousel-caption">
+          <h3>Glen Spa</h3>
+          <p>Recover Revive and Rejuvanate.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="good.jpg" alt="Second slide">
+       <div class="carousel-caption">
+          <h3>A Spa with a</h3>
+          <p>Life Style Experience.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="lady.jpg" alt="Third slide">
+        <div class="carousel-caption">
+          <h3>You Expectations</h3>
+          <p>Our Passion.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+    <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid text-white bg-secondary">
     
@@ -37,15 +78,16 @@
             <a class="nav-link" href="#activity">Activities</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#pricing">Pricing</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+         
+          <li class="nav-item">
             <a class="nav-link" href="#reviews">Review</a>
           </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Spa
             </a>
@@ -54,7 +96,7 @@
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -67,6 +109,11 @@
       <p class="display-5 text-muted text-center fst-italic fw-light">A sanctuary of the sense</p> -->
     
 <!-- start of sections -->
+<br>
+<div class="heading-1">
+  <h1 class="text-secondary text-center">Our Special Pagages.</h1>
+</div>
+
     <section id="intro">
         <div class="container-lg">
             <div class="row justify-content-center align-items-center">
@@ -86,8 +133,7 @@
     </section>
 
     <!-- main image & intro text -->
-    
-
+   
     <section id="service">
         <div class="container-lg">
             <div class="row justify-content-center align-items-center">
@@ -127,12 +173,14 @@
             </div>
         </div>
     </section>
+    <hr>
 
     <!-- Activity section -->
+    <section id="activity">
     <div class="text-center text-secondary">
       <h2>Activities</h2>
     </div>
-    <section id="activity">
+    
       <div class="container-lg">
         <div class="row">
           <div class="col">
@@ -165,7 +213,7 @@
           <img class="d-block w-100" src="spa-at-home.png" alt="Second slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="bed.jpg" alt="Third slide">
+          <img class="d-block w-100" src="AMANI-SPA-RADISSON-BLU.jpg.webp" alt="Third slide">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -180,6 +228,7 @@
 
     <hr>
 <!-- About page -->
+<section id="about">
 <div class="about">
 <div class="row justify-content-left my-3">
 <div class=" col-lg-6 my-5 ">
@@ -191,6 +240,7 @@
 </div>
 </div>
 </div>
+</section>
     <!-- <div class="row">
       <div class="col-lg-6">.col</div>
       <img src="lady.jpg" class="img-thumbnail" alt="...">
@@ -251,14 +301,14 @@
       </div>
 
     </div>
-    <!-- end container -->
+   end container
 </section> -->
 <hr>
 <!-- topics at a glance -->
-<section id="about">
+<section id="pricing">
   <div class="container-md">
-    <div class="text-center">
-      <h2>Treatment Prices</h2>
+    <div class="text-center text-secondary">
+      <h2>Spa Pageages and Prices</h2>
       <p class="lead text-muted"></p>
     </div>
     <div class="row my-5 g-5 justify-content-around align-items-center">
@@ -378,6 +428,25 @@
       </div>
     </div>
   </div>
+  
+  <div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </section>
 <hr>
 <!-- review list -->
